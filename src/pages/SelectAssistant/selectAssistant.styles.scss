@@ -1,0 +1,16 @@
+.stn-assistants {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  .assistant {
+    cursor: pointer;
+    opacity: 0.8;
+    width: 100%;
+  }
+
+  .assistant:hover {
+    opacity: 1;
+  }
+
+}

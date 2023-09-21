@@ -1,0 +1,38 @@
+.logo {
+  width: 100px;
+}
+
+.nav-h {
+  height: 44px;
+
+  .nav-link {
+    transition: 0.3s;
+
+    &.btn-link {
+      border-radius: 5px;
+      background: -webkit-linear-gradient(#e2231a 50%, transparent 50%);
+      background-size: 200% 200%;
+
+      &:hover {
+        background-position: 100% -100%;
+      }
+    }
+
+    &.std-link {
+      color: #FFFFFF;
+
+      &:hover {
+        color: #e2231a;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .navbar {
+    background-color: #fff !important;
+    /* Fondo claro para pantallas móviles */
+  }
+}

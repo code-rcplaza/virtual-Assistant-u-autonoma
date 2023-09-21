@@ -1,0 +1,7 @@
+$color-jet: #3C3834;
+
+$theme-colors: (
+  "dark": $color-jet,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
